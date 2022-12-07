@@ -1,0 +1,24 @@
+{
+  "name": "magiclyde/phplib",
+  "description": "awesome php library",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Magiclyde\\Phplib\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "clyde",
+      "email": "magiclyde@163.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-openssl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
